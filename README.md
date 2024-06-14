@@ -4,7 +4,10 @@ Welcome to the Notification Service project! This project demonstrates a notific
 
 ## How our results look like 
 
-![Video Preview](https://i.imgur.com/nRCa5Ge.mp4)
+
+
+https://github.com/Adarsh1999/Notification-Service/assets/28682167/2dba77ee-4575-449e-bac3-eaef4db8348e
+
 
 
 ## Table of Contents
