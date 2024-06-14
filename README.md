@@ -38,7 +38,7 @@ The architecture of this notification service is as follows:
 
 Before you begin, ensure you have the following installed:
 
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [.NET 8 SDK]([https://dotnet.microsoft.com/download/dotnet/6.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0))
 - [Kafka](https://kafka.apache.org/quickstart) (setup a Kafka broker)
 
 ### Installation
