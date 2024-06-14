@@ -13,7 +13,6 @@ Welcome to the Notification Service project! This project demonstrates a notific
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Usage](#usage)
 
@@ -77,24 +76,6 @@ Before you begin, ensure you have the following installed:
    ```sh
    dotnet run
    ```
-
-## Project Structure
-
-```plaintext
-.
-├── Controllers
-│   └── NotificationController.cs
-├── Hubs
-│   └── ChatHub.cs
-├── Models
-│   └── NotificationUpdateRequest.cs
-├── Services
-│   ├── ProducerService.cs
-│   └── ConsumerService.cs
-├── Program.cs
-├── appsettings.json
-└── README.md
-```
 
 ### Key Files
 
