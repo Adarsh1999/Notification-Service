@@ -4,6 +4,8 @@ Welcome to the Notification Service project! This project demonstrates a notific
 
 ## How our results look like 
 
+![Video Preview](https://i.imgur.com/nRCa5Ge.mp4)
+
 
 ## Table of Contents
 
