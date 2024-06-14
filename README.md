@@ -1,7 +1,3 @@
-Here's a beautifully formatted README for your GitHub repository:
-
----
-
 # Notification Service with Kafka, WebSocket (SignalR), and ASP.NET Core
 
 Welcome to the Notification Service project! This project demonstrates a notification system using ASP.NET Core, Kafka, and WebSocket (SignalR). The system is designed to produce notifications via Kafka and broadcast them to connected clients using WebSocket.
@@ -17,8 +13,7 @@ Welcome to the Notification Service project! This project demonstrates a notific
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Architecture
 
@@ -146,10 +141,3 @@ Contributions are welcome! Please fork this repository and submit pull requests.
 4. Push to the branch (`git push origin feature-branch`)
 5. Create a new Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to add any additional details or images to enhance the README. This template provides a comprehensive and organized structure for documenting your project.
