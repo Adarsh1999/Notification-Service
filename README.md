@@ -14,6 +14,7 @@ Welcome to the Notification Service project! This project demonstrates a notific
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
 - [Configuration](#configuration)
+- [Future Plan](#usage)
 - [Usage](#usage)
 
 
@@ -115,6 +116,15 @@ To send a notification, make a POST request to the `NotificationController` with
 ### Receiving Notifications
 
 Connect to the SignalR hub at `/chatHub` to receive real-time notifications. Use the `ReceiveMessage` event to handle incoming notifications.
+
+
+## Future Plans
+1. **Kubernetes Deployment**: Future updates will be deployed to Kubernetes for better scalability. This setup allows different pods to manage WebSocket connections, enabling targeted notifications to specific devices.
+
+2. **Dead Letter Queue Implementation**: I'll introduce a dead letter queue to handle issues such as message deregistration, broken messages, or producer shutdowns. This ensures messages that cannot be processed are not lost.
+
+3. **Consumer-Side Offset Management**: I plan to implement a pre-configured business logic on the consumer side to automatically commit offsets. This means that if a message is consumed but an error occurs during processing, the system will retry the message to ensure it is processed correctly.
+
 
 ## Contributing
 
