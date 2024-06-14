@@ -2,6 +2,9 @@
 
 Welcome to the Notification Service project! This project demonstrates a notification system using ASP.NET Core, Kafka, and WebSocket (SignalR). The system is designed to produce notifications via Kafka and broadcast them to connected clients using WebSocket.
 
+## How our results look like 
+
+
 ## Table of Contents
 
 - [Architecture](#architecture)
@@ -23,7 +26,7 @@ The architecture of this notification service is as follows:
 2. **Kafka Consumer Module**: Listens to Kafka topics and consumes notifications.
 3. **WebSocket (SignalR)**: Broadcasts consumed notifications to connected clients in real-time.
 
-![Architecture Diagram](architecture-diagram.png) <!-- Add your architecture diagram image here -->
+<img src="https://i.imgur.com/DUIlfh9.png" alt="Architecture Diagram" width="700"/> 
 
 ## Features
 
@@ -38,8 +41,9 @@ The architecture of this notification service is as follows:
 
 Before you begin, ensure you have the following installed:
 
-- [.NET 8 SDK]([https://dotnet.microsoft.com/download/dotnet/6.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0))
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/6.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0))
 - [Kafka](https://kafka.apache.org/quickstart) (setup a Kafka broker)
+- [SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr) (SignalR)
 
 ### Installation
 
